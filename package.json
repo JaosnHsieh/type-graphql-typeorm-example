@@ -1,0 +1,29 @@
+{
+  "name": "type-graphql-example",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
+    "graphql": "15.3",
+    "graphql-request": "^2.0.0",
+    "nodemon": "^2.0.4",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "type-graphql": "^1.0.0-rc.3",
+    "typeorm": "^0.2.25"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "3.9.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start:dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "author": "jasonh",
+  "license": "ISC",
+  "description": ""
+}
