@@ -1,7 +1,7 @@
 {
   "name": "type-graphql-example",
   "dependencies": {
-    "apollo-server": "^2.15.1",
+    "apollo-server": "^2.25.4",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.12.2",
     "graphql": "15.3",
