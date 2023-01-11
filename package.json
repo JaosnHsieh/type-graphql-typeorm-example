@@ -3,7 +3,7 @@
   "dependencies": {
     "apollo-server": "^2.15.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "graphql": "15.3",
     "graphql-request": "^2.0.0",
     "nodemon": "^2.0.4",
